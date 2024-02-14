@@ -1,0 +1,70 @@
+body {
+	font-family: "Titan One", sans-serif;
+	background-color: black;
+	transition: background-color 2000ms;
+}
+
+.hide {
+  opacity: 0;
+  position: absolute;
+  bottom: 100vh;
+}
+
+.img-fluid {
+  max-height: 70vh;
+  width: auto;
+  margin: 0 auto;
+}
+
+.reveal {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+
+.carousel {
+  height: 80vh;
+  width: auto;
+}
+.main {
+	height: 100vh;
+}
+
+.word {
+	color: black;
+	transition: color 2000ms;
+}
+
+.valentine {
+  color: black;
+  transition: color 2000ms;
+}
+
+@media (min-width: 576px) {
+	.shrink-text {
+		font-size: 4rem; /* Adjust font size for small screens */
+	}
+}
+
+@media (min-width: 768px) {
+	.shrink-text {
+		font-size: 5rem; /* Adjust font size for medium screens */
+	}
+}
+
+@media (min-width: 992px) {
+	.shrink-text {
+		font-size: 7rem; /* Adjust font size for large screens */
+	}
+}
+
+@media (min-width: 1200px) {
+	.shrink-text {
+		font-size: 9rem; /* Adjust font size for extra-large screens */
+	}
+}
+
+@media (min-width: 1500px) {
+	.shrink-text {
+		font-size: 10rem; /* Adjust font size for extra-large screens */
+	}
+}
